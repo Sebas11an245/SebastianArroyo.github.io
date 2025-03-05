@@ -10,35 +10,19 @@ h1 {
     margin: .5em;
 }
 
-.topnav {
-    background-color: #310A31;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-around;
-}
 
-.topnav a {
-    text-align: center;
-    padding: 1em;
-    text-decoration: none;
-    font-size: 1.5em;
-}
 
-.topnav a:link {
-    color: #f2f2f2;
-}
 
-.topnav a:visited {
-    color: #f2f2f2;
-}
-
-.topnav a:hover {
-    background-color: #d9d9d9;
+a:link {
     color: black;
 }
-
-.topnav a.active {
-    background-color: #847996;
+a:visited {
+    color: black;
+}
+a:hover {
+    color: gray;
+}
+a:active {
     color: white;
 }
 #contact{
