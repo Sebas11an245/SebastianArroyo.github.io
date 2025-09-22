@@ -1,7 +1,8 @@
 body {
-    font-size: 100%;
-    background-color: #FFF;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #222;
 }
 
 h1 {
@@ -10,41 +11,65 @@ h1 {
     margin: .5em;
 }
 
-
-
-a{
-    text-decoration:none;
+.topnav {
+    background-color: #310A31;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
 }
-a:link {
+
+.topnav a {
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.topnav a:link {
+    color: #f2f2f2;
+}
+
+.topnav a:visited {
+    color: #f2f2f2;
+}
+
+.topnav a:hover {
+    background-color: #d9d9d9;
     color: black;
 }
-a:visited {
-    color: black;
-}
-a:hover {
-    color: gray;
-}
-a:active {
+
+.topnav a.active {
+    background-color: #847996;
     color: white;
 }
 #contact{
     text-align: center;
 }
-main{
-    padding: 1px 4vw;
+main h2 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #ccc; /* subtle divider */
+    padding-bottom: 0.25em;
 }
-h2{
-    border-bottom: 3px solid #000;
-    margin: auto  auto auto auto;
+main p {
+    margin-bottom: .5em;
 }
-p{
-    font-size: 1.25em;
+
+main {
+    padding: 0 1em;
 }
+
+
 .right{
     float: right;
 }
 *{
     border: 1px  ;
+}
+ul {
+    padding-left: 1.5em;
+    line-height: 1.4;
+    list-style-type: disc; font-size: 0.95em;
 }
 li{
     padding: 2px;
