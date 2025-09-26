@@ -1,0 +1,76 @@
+body {
+    font-size: 100%;
+    background-color: #F4ECD6;
+    font-family: "Alan Sans", sans-serif;
+     margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: .5em;
+}
+
+.topnav {
+    background-color: #310A31;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+}
+
+.topnav a {
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.topnav a:link {
+    color: #f2f2f2;
+}
+
+.topnav a:visited {
+    color: #f2f2f2;
+}
+
+.topnav a:hover {
+    background-color: #d9d9d9;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #847996;
+    color: white;
+}
+#contact{
+    text-align: center;
+}
+main h2 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #ccc; /* subtle divider */
+    padding-bottom: 0.25em;
+}
+main p {
+    margin-bottom: .5em;
+}
+
+main {
+    padding: 0 5vw;
+}
+
+
+.right{
+    float: right;
+}
+*{
+    border: 1px  ;
+}
+ul {
+    padding-left: 1.5em;
+    line-height: 1.4;
+    list-style-type: disc; font-size: 0.95em;
+}
+li{
+    padding: 2px;
+}
