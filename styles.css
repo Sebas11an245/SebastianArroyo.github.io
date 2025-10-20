@@ -5,6 +5,38 @@ body {
      margin: 0;
 }
 
+a:link {
+    color: #58355e;
+}
+
+a:visited {
+    color: #58355e;
+}
+
+a:hover {
+    color: #BD97C4;
+}
+
+a.active {
+    color: #251627;
+}
+
+footer a:link {
+    color: white;
+}
+
+footer a:visited {
+   color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer a.active {
+   color: white;
+}
+
 h1 {
     font-size: 3em;
 }
@@ -102,21 +134,8 @@ footer{
     text-align: center;
     padding: 1em;
     color: white;
-
 }
-a:link {
-    color: #f2f2f2;
-}
-
-a:visited {
-    color: #f2f2f2;
+.check{
+    list-style-image: url("../../checkmark1.png");
 }
 
-a:hover {
-    color: #847996;
-}
-
-a:active {
-    border: 1px solid #847996;
-    color: white;
-}

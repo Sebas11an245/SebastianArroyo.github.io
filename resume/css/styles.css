@@ -69,8 +69,9 @@ main {
 ul {
     padding-left: 1.5em;
     line-height: 1.4;
-    list-style-type: disc; font-size: 0.95em;
+    
 }
 li{
     padding: 2px;
 }
+
