@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 24px;
     color: #222;
 }
 
@@ -74,3 +74,4 @@ ul {
 li{
     padding: 2px;
 }
+
