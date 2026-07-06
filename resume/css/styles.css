@@ -1,77 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-size: 100%;
-    background-color: #F4ECD6;
-    font-family: "Alan Sans", sans-serif;
-     margin: 0;
-}
-
-h1 {
-    text-align: center;
-    font-size: 3em;
-    margin: .5em;
-}
-
-.topnav {
-    background-color: #310A31;
-    overflow: hidden;
-    display: flex;
-    justify-content: right;
-}
-
-.topnav a {
-    text-align: center;
-    padding: 1em;
-    text-decoration: none;
-    font-size: 1.5em;
-}
-
-.topnav a:link {
-    color: #f2f2f2;
-}
-
-.topnav a:visited {
-    color: #f2f2f2;
-}
-
-.topnav a:hover {
-    background-color: #d9d9d9;
-    color: black;
-}
-
-.topnav a.active {
-    background-color: #847996;
-    color: white;
-}
-#contact{
-    text-align: center;
-}
-main h2 {
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    border-bottom: 2px solid #ccc; /* subtle divider */
-    padding-bottom: 0.25em;
-}
-main p {
-    margin-bottom: .5em;
-}
-
-main {
-    padding: 0 5vw;
-}
-
-
-.right{
-    float: right;
-}
-*{
-    border: 1px  ;
-}
-ul {
-    padding-left: 1.5em;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.4;
-    
-}
-li{
-    padding: 2px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    color: #222;
+    background-color: #fff;
 }
 
+/* Profile Header */
+header {
+    margin-bottom: 25px;
+}
+
+header h1 {
+    margin: 0 0 5px 0;
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+#contact {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Global Section Styles */
+h2 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #222;
+    padding-bottom: 3px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #111;
+}
+
+.objective-text {
+    font-size: 0.95rem;
+    margin: 0 0 25px 0;
+    color: #444;
+}
+
+/* Flexbox Two-Column Master Layout */
+.resume-container {
+    display: flex;
+    gap: 30px;
+}
+
+/* Left Main Column (Design & Leadership) */
+.left-col {
+    flex: 1.1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Right Sidebar Column (Development & Credentials) */
+.right-col {
+    flex: 0.9;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Entry Grouping Flexbox */
+.entry-group {
+    margin-bottom: 15px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.entry-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #111;
+}
+
+.date-location {
+    font-style: italic;
+    color: #666;
+    font-size: 0.85rem;
+}
+
+.tech-stack {
+    font-style: italic;
+    font-size: 0.85rem;
+    color: #0056b3;
+    margin-bottom: 4px;
+}
+
+/* Lists & Paragraph Text */
+ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+li {
+    margin-bottom: 3px;
+    font-size: 0.88rem;
+    color: #333;
+}
+
+p {
+    margin: 0;
+    font-size: 0.88rem;
+    color: #333;
+}
+
+.proficiencies-group p {
+    margin-bottom: 8px;
+}
